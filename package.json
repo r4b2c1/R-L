@@ -1,0 +1,24 @@
+{
+  "name": "r-l",
+  "version": "1.0.0",
+  "description": "hotRestur.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r4b2c1/R-L.git"
+  },
+  "author": "R-L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r4b2c1/R-L/issues"
+  },
+  "homepage": "https://github.com/r4b2c1/R-L#readme"
+}
