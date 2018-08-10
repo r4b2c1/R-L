@@ -16,26 +16,95 @@
 </head>
 <body>
 
+    <div class="container">
+
         <div class="jumbotron">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </div>
+            <h1 class="text-center">
+                <span class="glyphicon glyphicon-fire">
+
+                </span>
+                HOT TABLE
+            </h1>
+            <hr>
+            <h2 class="text-center">GET YOUR TABLE HERE</h2>
+            <br>
+            <div class="text-center">
+            <a href="/reserve">
+                <button type="button" class="btn btn-lg btn-danger">
+                    <span class="glyphicon glyphicon-phone-alt">
+
+                    </span>
+                    MAKE RESERVATION
+                </button>
+            </a>
+            <a href="/">
+            <button type="button" class="btn btn-lg btn-default">
+                <span class="glyphicon glyphicon-king">
+
+                </span>
+            </button>
+            </a>
+          </div>
+       </div> 
+       
+       <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+       <footer class="footer">
+           <div class="container">
+
+            <p>Control panel</p>
+            <p>
+                <a href="#" id="clear">Clear Table</a>
+                |
+                <a href="/api/tables">API Table Link</a>
+                |
+                <a href="/api/waitlist">API Wait List</a>
+            </p>
+           </div>
+       </footer>
 
 
 
 
 
 
-
+              <script src="server.js"></script>
 
               <script
               src="https://code.jquery.com/jquery-3.3.1.js"
               integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
               crossorigin="anonymous"></script>
 
-    
+    </div>
 </body>
 </html>
